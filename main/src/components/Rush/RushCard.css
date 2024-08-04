@@ -1,0 +1,34 @@
+.rush-card {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+  }
+
+  .rush-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+  }
+
+.rush-card-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .rush-card-row {
+    display: flex;
+    align-items: center; /* Vertically centers the text content */
+    margin: 0;
+  }
+
+  .rush-card-img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }

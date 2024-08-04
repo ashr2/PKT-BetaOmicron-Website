@@ -1,0 +1,56 @@
+.root {
+    flex-grow: 1;
+  }
+
+  .MuiAppBar-root {
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 20px 0;
+  }
+
+  .container {
+    margin-top: 20px;
+  }
+
+  .section {
+    padding: 20px;
+    margin: 20px 0;
+    text-align: left;
+    background-color: #b71c1c;
+    color: #fff;
+  }
+
+  .academics {
+    background-color: #b71c1c;
+  }
+
+  .career {
+    background-color: #d32f2f;
+  }
+
+  .title {
+    color: #fff;
+  }
+
+  .image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .learn-more {
+    margin-top: 10px;
+    color: #fff;
+    border-color: #fff;
+  }
+
+  .learn-more:hover {
+    background-color: #fff;
+    color: #b71c1c;
+  }
