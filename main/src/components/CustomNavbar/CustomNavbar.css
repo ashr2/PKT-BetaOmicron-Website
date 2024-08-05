@@ -1,6 +1,10 @@
 .navbar {
     background-color: #AF1C30; /* Sets the background color to red */
     font-family: Optima, sans-serif;
+    font-size: 18px;
+
+    
+
 }
 
 .nav-link {
