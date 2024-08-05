@@ -8,16 +8,32 @@ import Stack from 'react-bootstrap/Stack'
 
 const whyrushInfo = {
   header: 'Why Rush',
-  backgroundColor: 'red',
-  textColor: 'white',
+  backgroundColor: '#CFB53B',
+  textColor: 'black',
   imgSrc: stockImage1,
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec justo urna'
 }
 
 const leadershipInfo = {
-  header: 'Why Rush',
-  backgroundColor: 'blue',
-  textColor: 'black',
+  header: 'Leadership',
+  backgroundColor: '#A51C30',
+  textColor: 'white',
+  imgSrc: stockImage2,
+  description: 'Aliquam vestibulum viverra lectus in fringilla. Vestibulum sagittis lorem quam, vitae sodales mauris ullamcorper eleifend'
+}
+
+const serviceInfo = {
+  header: 'Service',
+  backgroundColor: 'black',
+  textColor: 'white',
+  imgSrc: stockImage1,
+  description: 'Aliquam vestibulum viverra lectus in fringilla. Vestibulum sagittis lorem quam, vitae sodales mauris ullamcorper eleifend'
+}
+
+const communityInfo = {
+  header: 'Community',
+  backgroundColor: '#023020',
+  textColor: 'white',
   imgSrc: stockImage2,
   description: 'Aliquam vestibulum viverra lectus in fringilla. Vestibulum sagittis lorem quam, vitae sodales mauris ullamcorper eleifend'
 }
@@ -27,6 +43,8 @@ function Rush() {
     <Stack>
       <RushCard info = {whyrushInfo} imagePosition="left"/>
       <RushCard info = {leadershipInfo} imagePosition="right"/>
+      <RushCard info = {serviceInfo} imagePosition="left"/>
+      <RushCard info = {communityInfo} imagePosition="right"/>
     </Stack>
   );
 }
