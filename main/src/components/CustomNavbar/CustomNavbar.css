@@ -1,12 +1,25 @@
 .navbar {
-    background-color: #AF1C30; /* Sets the background color to red */
+    background-color: #740a18; /* Sets the background color to red */
     font-family: Optima, sans-serif;
     font-size: 18px;
-
-    
-
 }
 
 .nav-link {
-    color : rgb(209, 209, 209);
+    color : rgb(255, 255, 255);
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand {
+    color: white;
+    margin-left: 20px;
+}
+.navbar-brand h2, .nav-link {
+    margin: 10%;
+}
+
+.modal {
+    align-text: center;
 }
